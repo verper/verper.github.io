@@ -34,3 +34,41 @@
 		}
 	}
 }
+
+.contact-box {
+	background-color: white;
+	color: black;
+	padding: 20px;
+	margin: 60px auto;
+	max-width: 600px;
+	text-align: left;	
+
+	.hs-form {
+		.hs-input {
+			width: 100%;
+			border-radius: 0;
+		}
+
+		.btn {
+			color: white;
+		}
+
+		.input {
+			box-sizing: border-box;
+		}
+
+		.hs-input {
+			width: 100%;
+			max-width: 100%;
+			box-sizing: border-box;
+			min-height: 36px;
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+
+		textarea {
+			padding-top: 15px;
+			padding-bottom: 15px;
+		}
+	}
+}

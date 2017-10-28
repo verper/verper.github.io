@@ -1390,4 +1390,40 @@ input[type="checkbox"]:disabled:checked:after,
   top: -15px;
 }
 
+.contact-box {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  margin: 60px auto;
+  max-width: 600px;
+  text-align: left;
+}
+
+.contact-box .hs-form .hs-input {
+  width: 100%;
+  border-radius: 0;
+}
+
+.contact-box .hs-form .btn {
+  color: white;
+}
+
+.contact-box .hs-form .input {
+  box-sizing: border-box;
+}
+
+.contact-box .hs-form .hs-input {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  min-height: 36px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.contact-box .hs-form textarea {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 /*# sourceMappingURL=styles.css.map */
