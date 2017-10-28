@@ -17,3 +17,14 @@ app.config(function($routeProvider, $locationProvider) {
 
     $locationProvider.html5Mode(true);
 });  
+
+
+
+hbspt.forms.create({
+    portalId: '4013959',
+    formId: 'fd45a534-ae18-4952-ab4b-e73fb63f630a',
+    target: '#contact-form',
+    css: '',
+    submitButtonClass: 'btn btn-primary',
+    formInstanceId: '1'
+});

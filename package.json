@@ -8,5 +8,8 @@
     "laravel-elixir": "~6.0.0-9",
     "sass-font-awesome": "^1.0.0"
   },
-  "private": true
+  "private": true,
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
 }
