@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <IfModule mod_rewrite.c>
     Options +FollowSymlinks
     RewriteEngine On
@@ -8,4 +9,16 @@
     RewriteRule ^ - [L]
 
     RewriteRule (.*) /index.html [L]
+=======
+<IfModule mod_rewrite.c>
+    Options +FollowSymlinks
+    RewriteEngine On
+    # Don't rewrite files or directories
+    RewriteCond %{REQUEST_FILENAME} -f [OR]
+    RewriteCond %{REQUEST_FILENAME} -d
+
+    RewriteRule ^ - [L]
+
+    RewriteRule (.*) /index.html [L]
+>>>>>>> 459d21a23893c510773e5840cfbb191751accfe9
 </IfModule>
