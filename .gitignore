@@ -1,0 +1,10 @@
+# System Wide
+error_log
+.DS_Store
+.idea/
+.htaccess
+node_modules
+.zip
+npm-debug.log
+/test
+/old

@@ -1,0 +1,36 @@
+.contact-form {
+	background-color: white;
+	color: black;
+	padding: 20px;
+	margin: 60px auto;
+	max-width: 600px;
+	text-align: left;
+
+	legend {
+		margin-bottom: 25px;
+	}
+
+	.btn {
+		color: white;
+	}
+
+	label {
+		font-size: 0.85em;
+		transition: all .3s linear;
+		position: absolute;
+		top: 9px;
+	}
+
+	.form-group {
+		position: relative;
+	}
+
+	.form-control {
+		margin-bottom: 2.5rem;
+
+		&:valid + label,
+		&:focus + label {
+			top: -15px;
+		}
+	}
+}
