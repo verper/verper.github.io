@@ -1406,6 +1406,7 @@ input[type="checkbox"]:disabled:checked:after,
 
 .contact-box .hs-form .btn {
   color: white;
+  cursor: pointer;
 }
 
 .contact-box .hs-form .input {
