@@ -15,7 +15,6 @@
 
 .app {
 	padding: 60px 15px;
-	text-align: center;
 	background-color: $gray;
 	color: white;
 	* {
@@ -36,5 +35,15 @@
 	min-height: 100vh;
 	> .row {
 		min-height: 100vh;
+	}
+}
+
+.content {
+	h3 {
+		color: aquamarine;
+	}
+
+	.fa-star {
+		color: yellow;
 	}
 }
