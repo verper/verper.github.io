@@ -16,6 +16,7 @@
 .app {
 	padding: 60px 15px;
 	background-color: $gray;
+	background-image: radial-gradient(circle, #333, $gray-dark);
 	color: white;
 	* {
 		color: inherit;
@@ -43,7 +44,7 @@
 		color: aquamarine;
 	}
 
-	.fa-star {
+	.fa-star, .fa-key {
 		color: yellow;
 	}
 

@@ -1,7 +1,9 @@
 .masterhead {
 	padding: 60px 15px 30px;
 	// background: $gray-lightest;
-	background: aquamarine;
+	background: aqua;
+    background-image: linear-gradient(to bottom right, aqua, aquamarine);
+    color: black;
 
 	.logo {
 		max-height: 100%;

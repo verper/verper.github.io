@@ -1045,7 +1045,9 @@ input[type="checkbox"]:disabled:checked:after,
 
 .masterhead {
   padding: 60px 15px 30px;
-  background: aquamarine;
+  background: aqua;
+  background-image: linear-gradient(to bottom right, aqua, aquamarine);
+  color: black;
 }
 
 .masterhead .logo {
@@ -1118,6 +1120,7 @@ input[type="checkbox"]:disabled:checked:after,
 .app {
   padding: 60px 15px;
   background-color: #212121;
+  background-image: radial-gradient(circle, #333, #222);
   color: white;
 }
 
@@ -1146,7 +1149,7 @@ input[type="checkbox"]:disabled:checked:after,
   color: aquamarine;
 }
 
-.content .fa-star {
+.content .fa-star, .content .fa-key {
   color: yellow;
 }
 
