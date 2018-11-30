@@ -1046,8 +1046,9 @@ input[type="checkbox"]:disabled:checked:after,
 .masterhead {
   padding: 60px 15px 30px;
   background: aqua;
-  background-image: linear-gradient(to bottom right, aqua, aquamarine);
-  color: black;
+  background: url(../images/1025-min.jpg) no-repeat top left;
+  background-size: cover;
+  color: white;
 }
 
 .masterhead .logo {
@@ -1072,6 +1073,11 @@ input[type="checkbox"]:disabled:checked:after,
   display: inline-block;
   padding: 15px;
   border: 1px solid;
+  color: white;
+}
+
+.masterhead h4 {
+  color: white;
 }
 
 .masterhead ul {
@@ -1086,7 +1092,7 @@ input[type="checkbox"]:disabled:checked:after,
 
 .masterhead ul a:not(.btn) {
   font-size: 18px;
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
@@ -1097,8 +1103,8 @@ input[type="checkbox"]:disabled:checked:after,
 
 .retroshadow {
   font-family: 'Quicksand', sans-serif;
-  color: black;
-  text-shadow: 1px 1px 0px #d5d5d5, 5px 4px 0px rgba(0, 0, 0, 0.2);
+  color: white;
+  text-shadow: 1px 1px 0px #de5fd0, 5px 4px 0px #980057;
 }
 
 .section {
