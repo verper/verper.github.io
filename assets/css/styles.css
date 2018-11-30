@@ -1152,7 +1152,8 @@ input[type="checkbox"]:disabled:checked:after,
 }
 
 .content h3 {
-  color: aquamarine;
+  color: white;
+  text-shadow: -2px 2px 2px #2a8abc, 2px 2px 2px #2a8abc;
 }
 
 .content .fa-star, .content .fa-key {
@@ -1160,7 +1161,7 @@ input[type="checkbox"]:disabled:checked:after,
 }
 
 .content hr {
-  background: aquamarine;
+  background: #2a8abc;
 }
 
 .hex-holder {

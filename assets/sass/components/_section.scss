@@ -41,7 +41,8 @@
 
 .content {
 	h3 {
-		color: aquamarine;
+		color: white;
+		text-shadow: -2px 2px 2px #2a8abc, 2px 2px 2px #2a8abc;
 	}
 
 	.fa-star, .fa-key {
@@ -49,6 +50,6 @@
 	}
 
 	hr {
-		background: aquamarine;
+		background: #2a8abc;
 	}
 }
